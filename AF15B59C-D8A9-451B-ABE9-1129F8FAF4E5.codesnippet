@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>presenterClass</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>final class &lt;#PresenterClass#&gt; {
+    
+    unowned let view: &lt;#ViewProtocol#&gt;
+    
+    init(view: &lt;#ViewProtocol#&gt;) {
+        self.view = view
+    }
+}
+
+
+// MARK: Private methods
+
+extension &lt;#PresenterClass#&gt; {
+    
+}
+
+
+// MARK: Public methods
+
+extension &lt;#PresenterClass#&gt; {
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AF15B59C-D8A9-451B-ABE9-1129F8FAF4E5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates default presenter class</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Presenter Class Model</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
