@@ -3,46 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>presenterClass</string>
+	<string>initPresenter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>final class &lt;#PresenterClass#&gt; {
-    
-    unowned let view: &lt;#ViewProtocol#&gt;
-    
-    init(view: &lt;#ViewProtocol#&gt;) {
-        self.view = view
-    }
-}
-
-
-// MARK: Private methods
-
-extension &lt;#PresenterClass#&gt; {
-    
-}
-
-
-// MARK: Public methods
-
-extension &lt;#PresenterClass#&gt; {
-    
-}
-</string>
+	<string>private lazy var presenter: &lt;#PresenterClass#&gt; = {
+    return &lt;#PresenterClass#&gt;(view: self)
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AF15B59C-D8A9-451B-ABE9-1129F8FAF4E5</string>
+	<string>92CE7566-3BF8-4B65-AC0B-7F5A81F66462</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Creates default presenter class</string>
+	<string>Initialize your presenter on any ViewController</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Presenter Class Model</string>
+	<string>Init presenter on ViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
