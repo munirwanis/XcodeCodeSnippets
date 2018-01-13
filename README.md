@@ -34,3 +34,7 @@ Copy this repository Snippets to Xcode
 ```sh
 ./snippets.sh export
 ```
+
+### ⚠️ Attention
+
+Always restart Xcode when you add new Snippets through the Script!
