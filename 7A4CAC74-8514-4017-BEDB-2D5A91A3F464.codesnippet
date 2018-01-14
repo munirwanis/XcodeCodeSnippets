@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewClass</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#ViewClass#&gt;: &lt;#UIClass#&gt; {
+    private lazy var presenter: &lt;#PresenterClass#&gt; = {
+        return &lt;#PresenterClass#&gt;(view: self)
+    }()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+
+
+// MARK: - Private methods
+
+extension &lt;#ViewClass#&gt; {
+    
+}
+
+
+// MARK: - Public methods
+
+extension &lt;#ViewClass#&gt; {
+    
+}
+
+
+// MARK: - Protocol methods
+
+extension &lt;#ViewClass#&gt;: &lt;#ProtocolClass#&gt; {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7A4CAC74-8514-4017-BEDB-2D5A91A3F464</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates default MVP ViewController</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>View Controller Class Model</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
